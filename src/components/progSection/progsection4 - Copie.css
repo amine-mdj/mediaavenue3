@@ -1,0 +1,72 @@
+.progsec4{
+    width: 100% ;
+    min-height: 100vh ;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+.progsec4 h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    color: #555;
+}
+
+.progsec4 hr{
+    background: #555;
+    border: none;
+    height: 2px;
+    width: 50px;
+}
+
+.progsec4-bottom{
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.progsec4-left{
+    padding-inline: 50px;
+ flex:50%;
+}
+
+.progsec4-left h2{
+  font-size: 2rem;
+  color: #555;
+}
+
+.progsec4-left p{
+  font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.progsec4-right{
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progsec4-right img{
+    box-shadow: 0 0 10px #888888;
+    width: 80%;
+    height: 100%;
+     }
+
+@media screen and (max-width: 900px) {
+  .progsec4-left{
+    flex: none;
+    width: 100%;
+    order: 2;
+  }
+  .progsec4-right{
+   flex: none;
+   width: 100%;
+   order: 1;
+  }
+}
+

@@ -1,0 +1,92 @@
+.progsec9{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #CFD17F;
+    background-image: url(../../img/bg-zen.webp);
+    background-size: 100% 100%;
+}
+
+.progsec9-left{
+    flex: 1;
+}
+
+.progsec9-right{
+ padding-left: 140px;
+ padding-right: 20px;
+ margin-top: 50px;
+flex: 1;
+}
+
+.progsec9-right h1{
+  margin-top: 150px;
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
+
+.progsec9-right hr{
+  margin-top: -30px;
+    border: none;
+    height: 2px;
+    width: 50px;
+    background: white;
+}
+
+.progsec9-left img{
+  margin-top: 50px;
+  margin-left: 120px;
+    height: 60%;
+    width: 80%;
+}
+
+.progsec9-right h2{
+  margin-top: 100px;
+  text-align: center;
+  font-size: 2rem;
+  color: #555;
+}
+
+.progsec9-right p{
+  width: 80%;
+  margin: auto;
+  font-size: 1.2rem;
+    line-height: 1.6;
+  color: #555;
+}
+
+@media screen and (max-width: 1440px) {
+  .progsec9 h1{
+    margin-top: 0;
+    font-size: 2.8rem;
+  }
+
+  .progsec9-right h2{
+    font-size: 1.2rem;
+  }
+
+  .progsec9-right p{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .progsec9{
+    background-image: none;
+  }
+  .progsec9-left{
+    flex: none;
+    width: 100%;
+    background-image: url('../../img/bg-zen.webp');
+    background-size: 100% 100%;
+  }
+  .progsec9-right{
+    margin-top: 0px;
+    padding-left: 50px;
+    flex: none;
+    width: 100%;
+  }
+  
+}

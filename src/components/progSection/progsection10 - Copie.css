@@ -1,0 +1,70 @@
+.progsec10{
+    padding-top: 50px;
+    width:100% ;
+    min-height: 100vh;
+    background-color: #7FD1A0;
+    overflow: hidden;
+}
+
+.progsec10 h1{
+    font-size: 2.8rem;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+
+.progsec10 hr{
+    border: none;
+    height: 2px;
+    width: 50px;
+    background: white;
+}
+
+.progsec10 p{
+    line-height: 1.4;
+    color: #555 ;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.progsec10-item{
+    padding-inline: 170px;
+    display: flex;
+}
+
+.progsec10-item-right{
+ flex: 80%;
+}
+
+.progsec10-item-left{
+    background-image: url(../../img/bullet-y.png);
+    background-size: 50% 70%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex: 20%;
+}
+
+.progsec10-item-left p{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.progsec10-item-right span{
+font-weight: 700;
+}
+
+.progsec10-item-right p{
+    width: 80%;
+    font-size: 1rem;
+    text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+    .progsec10-item{
+        padding-inline: 170px;
+        display: block;
+    }
+}

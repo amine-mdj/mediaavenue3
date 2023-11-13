@@ -1,0 +1,96 @@
+.desec5{
+    width: 100% ;
+    min-height: 100vh ;
+    background-color: #CFD17F ;
+    overflow: hidden;
+    background-image: url(../../img/architecture.webp);
+    background-size: 80% 100%;
+    background-position: 50% 80% ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.desec5-left{
+flex: 1;
+padding-left: 100px;
+padding-right: 50px;
+
+width: 100%;
+}
+
+.desec5-left h1{
+    margin-top: 140px;
+    font-size: 2.8rem;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+.desec5-left hr{
+   border: none;
+   height: 2px;
+   width: 100px;
+}
+
+.desec5-left p{
+    font-size: 1.2rem;
+ color: #555;
+}
+
+.desec5-left span{
+    font-weight: 700;
+}
+
+.desec5-desc{
+    background-color: hsla(0,0%,100%,.2);
+    padding: 15px;
+}
+
+.desec5-desc p{
+    line-height: 1.6;
+}
+
+.desec5-right{
+    width: 100%;
+flex: 1;
+}
+
+.desec5-right img{
+    display: none;
+}
+
+@media screen and (max-width: 1440px) {
+    .desec5-left h1{
+        font-size: 1.8rem;
+    }
+    .desec5-left p{
+        font-size: 1rem;
+     
+    }
+    .desec5{
+        min-height: 120vh;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .desec5{
+        background-image: none;
+    }
+   .desec5-right img{
+    display: block;
+    width: 80%;
+    height: 80%;
+   }
+
+   .desec5-left{
+    flex: none;
+    order: 2;
+    margin-top: -70px;
+    margin-bottom: 50px;
+   }
+   .desec5-right{
+    flex: none;
+    order: 1;
+   }
+}

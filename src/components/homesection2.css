@@ -1,0 +1,15 @@
+.hmsec2{
+    max-width: 100%;
+    min-height: 165vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .hmsec2{
+        display: block;
+        
+    }
+  }

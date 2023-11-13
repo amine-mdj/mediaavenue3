@@ -1,0 +1,105 @@
+.ticsec2{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #CFD17F;
+}
+
+.ticsec2 h1{
+    margin-top: 50px;
+    font-size: 2.8rem;
+    font-weight: 900;
+  text-align: center;
+  color: white;
+}
+
+.ticsec2 hr{
+  border: none;
+  height: 2px;
+  width: 50px;
+  background: white;
+}
+
+.ticsec2 h2{
+    font-size: 1.6rem;
+ color: #555;
+ text-align: center;
+}
+
+.ticsec2-grid{
+    margin-top: 50px;
+    padding-inline: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ticsec2-item{
+    display: flex;
+}
+
+.ticsec2-left{
+ flex: 20%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-image: url('../../img/bullet.webp');
+ background-size: 100px 100px;
+ background-repeat: no-repeat;
+ background-position: 50% 50%;
+}
+
+.ticsec2-left p{
+    font-size: 2.2rem;
+    color: #555;
+}
+
+.ticsec2-right{
+ flex: 80%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.ticsec2-right P{
+    width: 90%;
+    margin: auto;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+
+.ticsec2-right li{
+    
+    color: #555;
+    line-height: 1.6;
+}
+
+.ticsec2-right span{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1440px) {
+    .ticsec2 h1{
+        font-size: 1.8rem;
+    }
+
+    .ticsec2 h2{
+        font-size: 1.2rem;
+    }
+    .ticsec2{
+        min-height: 160vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ticsec2-grid{
+        display: block;
+        padding-inline: 0;
+    }
+    .ticsec2-item{
+        display: block;
+        width: 90%;
+        text-align: center;
+    }
+}

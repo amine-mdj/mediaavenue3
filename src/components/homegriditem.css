@@ -1,0 +1,50 @@
+.griditem{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.griditem img{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    top: 0;
+    transition: top 1s;
+}
+
+
+.griditem:hover img{
+ top: -20px;
+}
+
+.griditem h1{
+    color: #555;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.griditem p{
+    margin-top: -5px;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    width: 80%;
+}
+
+@media screen and (max-width: 1440px) {
+    .griditem h1{
+        font-size: 1.2rem;
+        
+    }
+
+    .griditem p{
+        font-size: 1rem;
+    }
+
+    .griditem img{
+        height: 200px;
+        width: 200px;
+    }
+}
