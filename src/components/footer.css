@@ -173,8 +173,9 @@
     height: 600px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
    .footer-wrapper{
+    padding-left: 30px;
     display: block;
    }
    .percent{

@@ -60,7 +60,13 @@ flex: 40%;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
+    .ticsec1-right h1{
+        font-size: 2rem;
+    }
+    .ticsec1-right p{
+        font-size: 1rem;
+    }
    .ticsec1-left,.ticsec1-right{
     flex: none;
     width: 100%;

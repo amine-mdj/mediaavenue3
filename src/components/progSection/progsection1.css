@@ -51,7 +51,7 @@
 
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1440px) {
   .progsec1-right h1{
     font-size: 3.8rem;
   }
@@ -61,7 +61,7 @@
   }
 }
 
-@media screen and (max-width: 7680px) {
+@media screen and (max-width: 768px) {
    .progsec1-left{
     flex: none;
     width: 100%;
@@ -71,11 +71,13 @@
   }
   .progsec1-right p{
     font-size: 1rem;
+    padding-inline: 5px;
   }
 
    .progsec1-right{
       flex: none;
       width: 100%;
-      padding-block: 50px;
+      padding-block: 0;
+      align-items: normal;
    }
 }

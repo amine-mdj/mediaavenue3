@@ -36,8 +36,12 @@
 }
 
 .desec1-right hr{
-    margin-top: -20px;
-}
+    border: none;
+    width: 50px;
+    height: 2px;
+    margin-top: -10px;
+    }
+
 
 @media screen and (max-width: 1440px) {
  .desec1-right h1{
@@ -46,17 +50,31 @@
  .desec1-right p{
     font-size: 1.2rem;
 }
+
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     .desec1{
         background-image: none;
+        align-items: normal;
+    }
+    .desec1-right h1{
+        font-size: 2rem;
+        margin-left: 0;
+     }
+     .desec1-right hr{
+        margin-top: 0;
+     }
+     .desec1-right p{
+        font-size: 1rem;
+        padding-block: 0;
+        padding-inline: 20px;
     }
  .desec1-left img{
     display: block;
     margin-top: 30px;
-    width: 60%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
  }
 
  .desec1-left,.desec1-right{

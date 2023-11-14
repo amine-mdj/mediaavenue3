@@ -57,11 +57,23 @@ color: white;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
+  .adssec1-left img{
+    margin-top: 0;
+    margin-left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .adssec1-right h1{
+    font-size: 2rem;
+  }
+  .adssec1-right p{
+    font-size: 1rem;
+  }
   .adssec1-left,.adssec1-right{
     flex: none;
     width: 100%;
-    margin-bottom: 40px;
+    
   }
   .adssec1{
     flex-wrap: wrap;

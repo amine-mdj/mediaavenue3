@@ -97,6 +97,8 @@
         display: block;
         margin-bottom: 70px;
         padding-inline: 0;
+        margin-left: 0;
+        margin-top: 50px;
     }
     .desec6-grid-row{
         display: block;
@@ -107,5 +109,8 @@
     }
     .desec6-griditem{
         height:fit-content;
+    }
+    .desec6 p{
+        width: 100%;
     }
 }

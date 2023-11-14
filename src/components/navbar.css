@@ -100,4 +100,18 @@
     font-size: 1.1rem;
 }
 
+@media screen and (max-width: 768px) {
+   
+    .links{
+        display: block;
+        padding-top: 50px;
+        padding-inline: 0;
+        overflow-y: scroll;
+    }
+
+    .somespace{
+        height: 200px;
+    }
+}
+
 

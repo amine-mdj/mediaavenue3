@@ -86,11 +86,20 @@ text-align: center;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
+    .adssec6{
+        background-size: cover;
+        background-position: 100% 0;
+    }
     .adssec6-bottom{
         display: block;
     }
     .adssec6-inner{
-        margin-block: 30px;
+        background-color: rgba(0, 0, 0, .5);
+        margin-block: 0;
+        width: 100%;
+    }
+    .adssec6-item{
+        background-color: transparent;
     }
 }

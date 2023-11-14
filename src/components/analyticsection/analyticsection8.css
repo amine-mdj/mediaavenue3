@@ -61,3 +61,12 @@
         font-size: 1rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .ticsec8{
+        min-height: 140vh;
+    }
+    .ticsec8-center{
+        width: 80%;
+    }
+}

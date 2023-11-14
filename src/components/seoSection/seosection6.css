@@ -4,7 +4,7 @@
     overflow: hidden;
     background-color: #CFD17F;
     background-image: url('../../img/bg-tools.webp');
-    background-size: 100% 100%;
+    background-size:cover;
     
 
 }
@@ -72,6 +72,16 @@
     }
 
     .seosec6-list li{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .seosec6 h1{
+        margin-top: 80px;
+        font-size: 2rem;
+    }
+    .seosec6 p{
         font-size: 1rem;
     }
 }

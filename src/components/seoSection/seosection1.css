@@ -56,12 +56,19 @@
   }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 768px){
+  .seosec1-right h1{
+    font-size: 2rem;
+  }
+  .seosec1-right p{
+    font-size: 1rem;
+  }
   .seosec1-left{
     flex: none;
     width: 100%;
   }
   .seosec1-right{
+    padding-right: 0;
     flex: none;
     width: 100%;
   }
