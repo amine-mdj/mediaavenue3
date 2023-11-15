@@ -162,8 +162,9 @@ const Navbar = ({ isActive, toggleClass }) => {
             contact
           </Link>
         </div>
-        <div className="somespace"></div>
+        
       </div>
+      
     </div>
   );
 };

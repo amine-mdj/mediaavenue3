@@ -109,9 +109,18 @@
         overflow-y: scroll;
     }
 
-    .somespace{
-        height: 200px;
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .links h2{
+        font-size: 2.4rem;
+    }
+    
+    .links a{
+        font-size:1.2rem ;
     }
 }
+
 
 

@@ -1,6 +1,6 @@
 .multisec7-wrapper{
     width: 100%;
-    height: 60vh;
+    min-height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,4 +60,18 @@
     width: 2px; /* Set the desired width for the date tiles */
     height: 25px; /* Set the desired height for the date tiles */
     font-size: 2px; /* Adjust the font size as needed */
+  }
+
+  @media screen and (max-width: 1440px){
+    .multisec7 h2{
+        font-size: 1.3rem;
+    }
+   
+  }
+
+  @media screen and (max-width: 768px){
+    .multisec7{
+        width: 80%;
+    }
+  
   }

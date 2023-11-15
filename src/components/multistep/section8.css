@@ -43,3 +43,28 @@
     font-size: 14px;
     color: #555;
   }
+
+  @media screen and (max-width: 1440px){
+    .multisec8 h2{
+        font-size: 1.3rem;
+    }
+    
+   
+  }
+
+  @media screen and (max-width: 768px){
+    .multisec8{
+        width: 80%;
+    }
+    .select-multi{
+      width: 100%;
+    }
+
+    .select-multi input{
+      width: 100%;
+    }
+    .select-multi select{
+      width: 100%;
+    }
+  
+  }

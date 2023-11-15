@@ -53,3 +53,28 @@
  .fade-in.visible {
     opacity: 1;
   }
+
+  @media screen and (max-width: 1440px){
+    .multisec11 h2{
+        font-size: 1.3rem;
+    }
+    
+    
+  }
+
+  @media screen and (max-width: 768px){
+    .multisec11{
+        width: 80%;
+    }
+    .multisec11-wrapper{
+        padding-left: 0;
+    }
+
+    .multisec11 input[type='text']{
+        width:100%;
+    }
+    .multisec11 textarea{
+        width: 100%;
+    }
+    
+  }

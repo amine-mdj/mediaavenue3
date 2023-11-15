@@ -11,6 +11,7 @@ body{
 }
 
 .right{
+    padding-right: 50px;
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -69,6 +70,9 @@ strong{
 }
 
 @media screen and (max-width: 768px) {
+    .right{
+        padding-right: 0;
+    }
     .wrapper{
         display: block;
         

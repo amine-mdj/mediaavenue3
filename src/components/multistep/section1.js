@@ -23,7 +23,7 @@ const Section1 = () => {
       <label for="programming">Web design / Programation Web</label>
       <br />
       <input type="radio" id="SEO" name="fav_language" value="SEO" />
-      <label for="SEO">SEO - SEO - Optimisation des moteurs de recherche</label>
+      <label for="SEO">SEO - Optimisation des moteurs de recherche</label>
       <br />
       <input
         type="radio"

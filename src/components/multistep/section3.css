@@ -30,3 +30,19 @@
   .fade-in.visible {
     opacity: 1;
   }
+
+  @media screen and (max-width: 1440px){
+    .multisec3 h2{
+        font-size: 1.3rem;
+    }
+    
+    .multisec3 label{
+        font-size: 1rem;
+        }
+  }
+
+  @media screen and (max-width: 1440px){
+    .multisec3{
+        width: 80%;
+    }
+  }

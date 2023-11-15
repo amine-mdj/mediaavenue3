@@ -30,3 +30,28 @@
  .fade-in.visible {
     opacity: 1;
   }
+
+  @media screen and (max-width: 1440px){
+    .multisec1 h2{
+        font-size: 1.3rem;
+    }
+    
+    .multisec1 label{
+        font-size: 1rem;
+        }
+  }
+
+  @media screen and (max-width: 768px){
+    .multisec1{
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    .multisec1 label{
+        width: 80%;
+        }
+
+        input[type="radio"]{
+          vertical-align: top;
+        }
+  }
