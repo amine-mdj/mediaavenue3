@@ -1,7 +1,7 @@
 .ticsec8{
     padding-top: 100px;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #CFD17F;
     overflow: hidden;
     background-image: url('../../img/bg-machine.webp');
