@@ -74,12 +74,16 @@
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .adssec5-left{
     margin-top: -50px;
     flex: none;
     width: 100%;
     order: 2;
+  }
+
+  .adssec5-left ul{
+    padding: 0;
   }
   .adssec5-right{
     flex: none;

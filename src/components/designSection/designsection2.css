@@ -73,6 +73,10 @@
     .desec2 h1{
         font-size: 2rem;
      }
+     .desec2 hr{
+        width: 50px;
+        margin-bottom: 30px;
+     }
     .desec2-left{
         padding: 10px;
         flex: none;

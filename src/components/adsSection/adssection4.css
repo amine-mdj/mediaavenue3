@@ -64,7 +64,13 @@
     flex: none;
     width: 100%;
   }
+  .adssec4-right p{
+    margin-right: 0;
+    width: 90%;
+    margin-inline: auto;
+  }
   .adssec4-right{
+    padding-left: 0;
     padding-right: 0;
   }
 }

@@ -3,7 +3,7 @@ import './homesection2.css'
 
 //--------------images
 
-import Design from '../img/Design3.webp'
+import Design from '../img/Design_sans_titre_50.webp'
 import Programming from '../img/programing.webp'
 import Seo from '../img/seo.webp'
 import Analytics from '../img/web-analytics.webp'

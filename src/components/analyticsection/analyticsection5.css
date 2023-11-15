@@ -56,7 +56,7 @@ color: #555;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     .ticsec5{
         background-image: none;
 
@@ -67,6 +67,7 @@ color: #555;
       order: 1;
     }
     .ticsec5-left{
+        margin-left: 20px;
       flex: none;
       width: 90%;
       order: 2;

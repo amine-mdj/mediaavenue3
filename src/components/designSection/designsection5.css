@@ -91,6 +91,13 @@ flex: 1;
     margin-top: -70px;
     margin-bottom: 50px;
    }
+
+   .desec5-left hr{
+    border: none;
+    color: white;
+    width: 50px;
+    height: 2px;
+   }
    .desec5-right{
     flex: none;
     order: 1;

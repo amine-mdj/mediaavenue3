@@ -91,7 +91,7 @@
 }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
 
     .desec7{
         background-image: none;
@@ -105,8 +105,15 @@
     .desec7-left{
        flex: none;
        order: 2;
-       padding-left: 50px;
+       padding-left: 0px;
        margin-bottom: 50px
+    }
+    .desec7-left h2{
+      padding-left: 20px;
+    }
+
+    .desec7-left p{
+    padding-left: 20px;
     }
 
     .desec7-right{

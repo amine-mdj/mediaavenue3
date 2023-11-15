@@ -77,6 +77,11 @@ flex: 1;
     padding-bottom: 50px;
     background-image: none;
   }
+
+  .progsec9 h1{
+    margin-top: 30px;
+    
+  }
   .progsec9-left{
     flex: none;
     width: 100%;
@@ -89,7 +94,11 @@ flex: 1;
     flex: none;
     width: 100%;
   }
+  .progsec9-right hr{
+    margin-top: 0;
+  }
   .progsec9-right h2{
+    margin-top: 30px;
     width: 90%;
     margin-inline: auto;
   }
