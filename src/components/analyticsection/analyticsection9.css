@@ -53,6 +53,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    .ticsec9{
+        height: 80vh;
+    }
     .ticsec9-inner{
         left: 0;
         width: 100%;

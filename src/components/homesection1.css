@@ -71,7 +71,7 @@ strong{
 @media screen and (max-width: 768px) {
     .wrapper{
         display: block;
-        min-height: 140vh;
+        
         
     }
     .right h1{

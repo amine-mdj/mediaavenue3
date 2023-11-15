@@ -78,7 +78,7 @@ font-weight: 700;
 
 @media screen and (max-width: 768px) {
     .progsec10{
-        min-height: 280vh;
+        padding-bottom: 30px;
     }
     .progsec10-item-left{
         background-size: 30% 70%;

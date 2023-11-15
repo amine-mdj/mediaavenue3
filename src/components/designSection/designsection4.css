@@ -73,9 +73,12 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     .desec4{
         background-image: none;
+    }
+    .desec4 h1{
+        font-size: 2rem;
     }
    .desec4-left img{
     display: block;

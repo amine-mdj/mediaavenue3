@@ -182,6 +182,10 @@
     margin-bottom: 50px;
    }
 
+   .percent h1{
+    font-size: 1.3rem;
+   }
+
    .percent hr{
     height: 1px;
    }

@@ -59,10 +59,13 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .adssec4-left,.adssec4-right{
     flex: none;
     width: 100%;
+  }
+  .adssec4-right{
+    padding-right: 0;
   }
 }
 

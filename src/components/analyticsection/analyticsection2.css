@@ -93,13 +93,16 @@
 }
 
 @media screen and (max-width: 768px) {
+    .ticsec2{
+        padding-bottom: 30px;
+    }
     .ticsec2-grid{
         display: block;
         padding-inline: 0;
     }
     .ticsec2-item{
         display: block;
-        width: 90%;
+        
         text-align: center;
     }
 }

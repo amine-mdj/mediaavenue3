@@ -70,6 +70,9 @@
     .desec2{
         padding-inline: 0;
     }
+    .desec2 h1{
+        font-size: 2rem;
+     }
     .desec2-left{
         padding: 10px;
         flex: none;
@@ -83,5 +86,6 @@
          order: 1;
          width: 100%;
       }
+
     
   } 

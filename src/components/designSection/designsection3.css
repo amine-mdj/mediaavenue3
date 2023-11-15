@@ -110,9 +110,16 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
    
-
+    .upper-desec3 h1{
+        font-size: 2rem;
+        padding-inline: 0;
+       
+    }
+    .upper-desec3 h2{
+        padding-inline: 10px;
+    } 
     .lower-desec3_left{
         order: 2;
         flex: none;

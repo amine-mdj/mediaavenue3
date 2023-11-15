@@ -72,8 +72,9 @@ flex: 1;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .progsec9{
+    padding-bottom: 50px;
     background-image: none;
   }
   .progsec9-left{
@@ -84,9 +85,16 @@ flex: 1;
   }
   .progsec9-right{
     margin-top: 0px;
-    padding-left: 50px;
+    padding-left: 0;
     flex: none;
     width: 100%;
   }
-  
+  .progsec9-right h2{
+    width: 90%;
+    margin-inline: auto;
+  }
+  .progsec9-right p{
+    width: 90%;
+    margin-inline: auto;
+  }
 }

@@ -81,3 +81,9 @@
     width: 600px;
     height: 600px;
 }
+
+@media screen and (max-width: 768px) {
+  .scroll-fixed{
+    display: none;
+  }
+}

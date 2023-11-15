@@ -73,7 +73,7 @@ border: none;
    }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .progsec5-left{
    flex: none;
    width: 100%;
@@ -82,6 +82,7 @@ border: none;
   .progsec5-right{
    flex: none;
    width: 100%;
+   padding-left: 20px;
   }
   .progsec5-left img{
     
