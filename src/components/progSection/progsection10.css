@@ -81,7 +81,8 @@ font-weight: 700;
         padding-bottom: 30px;
     }
     .progsec10-item-left{
-        background-size: 30% 70%;
+        margin-block: 20px;
+        background-size: 30% 100%;
     }
     .progsec10-item{
         padding-inline: 10px;
