@@ -67,7 +67,10 @@ color: white;
         background-image: none;
     }
 
-   
+    .agsec2-right h1{
+        font-size: 2rem;
+    }
+
     .agsec2-left{
       flex: none;
       width: 100%;

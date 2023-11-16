@@ -56,14 +56,18 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
+    .agsec5-right h1{
+        margin-top: 30px;
+        font-size: 2rem;
+    }
   .agsec5-left{
     flex: none;
     width: 100%;
   }
 
   .agsec5-right{
-    margin-top: -150px;
+    
     margin-bottom: 50px;
     flex: none ;
     width: 100%;

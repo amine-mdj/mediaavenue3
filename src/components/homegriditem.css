@@ -49,3 +49,10 @@
         width: 200px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .griditem img{
+        height: 120%;
+        width: 120%;
+    }
+}

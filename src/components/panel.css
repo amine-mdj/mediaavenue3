@@ -1,11 +1,12 @@
 .panel.active {
     height: 100vh;
+    
     transform: perspective(1300px) translateX(15%) rotateY(30deg) scale(0.4);
     overflow: hidden;
   }
 .panel{
     
-    width: 100vw;
+    width: 100%;
     position: relative; 
     transform-origin: left;
     transition: 1s;

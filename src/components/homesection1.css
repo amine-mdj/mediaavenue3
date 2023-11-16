@@ -6,6 +6,7 @@ body{
 .wrapper{
     display: flex;
     width: 100vw;
+    min-height: 100vh;
     background-color: #7FD1A0;
     padding-bottom: 50px;
 }
@@ -41,10 +42,10 @@ body{
 }
 
 hr{
-    width: 200px;
+    width: 50px;
     border: none; /* Remove the default border */
     background-color: white; /* Set the background color to white */
-    height: 4px;
+    height: 2px;
 }
 
 .left{
@@ -73,6 +74,7 @@ strong{
     }
     .wrapper{
         display: block;
+        min-height: auto;
         
         
     }

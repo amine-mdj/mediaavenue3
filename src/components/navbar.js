@@ -38,7 +38,7 @@ const Navbar = ({ isActive, toggleClass }) => {
   }, []);
 
   return (
-    <div>
+    <div className="wwraper">
       <div className={`nav ${isScrolled ? "scrolled" : ""}`}>
         <div onClick={handlehome} className="nav-logo">
           <img src={Media} alt="this is a logo" />
@@ -60,6 +60,7 @@ const Navbar = ({ isActive, toggleClass }) => {
           />
         )}
       </div>
+      <div className="placeholder"></div>
       <div className={isActive ? `active ${links}` : ` ${links}`}>
         {/* <ul> 
                <li>

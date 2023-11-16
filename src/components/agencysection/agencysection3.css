@@ -58,7 +58,11 @@
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
+    .agsec3-left h1{
+        font-size: 2rem;
+    }
+
    .agsec3-left{
     flex: none;
     width: 100%;

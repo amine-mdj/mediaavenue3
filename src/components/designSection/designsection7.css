@@ -96,6 +96,10 @@
     .desec7{
         background-image: none;
     }
+
+    .desec7-left h1{
+        font-size: 2rem;
+    }
     .desec7-right img{
         display: block;
         width: 100%;

@@ -60,6 +60,9 @@
   .agsec4{
     background-image: none;
   }
+  .agsec4-left h1{
+    font-size: 2rem;
+  }
   .agsec4-right img{
     padding-top: 100px;
     display: block;
