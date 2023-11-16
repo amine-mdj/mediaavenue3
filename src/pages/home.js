@@ -4,17 +4,27 @@ import video1 from "../img/1215.mp4";
 import Homesection1 from "../components/homesection1";
 import Homesection2 from "../components/homesection2";
 import Homesection3 from "../components/homesection3";
+import { useEffect } from 'react';
 
 const Home = ({ isActive }) =>{
 
+   useEffect(() => {
+      var video = document.getElementById("myVideo");
+      var overlayDiv = document.getElementById("overlayDiv");
+      overlayDiv.style.height = video.clientHeight + "px";
 
+  // Update the height if the window is resized
+  window.addEventListener("resize", function() {
+    overlayDiv.style.height = video.clientHeight + "px";
+   });
+   })
    return (
       <div className='homeContainer' >
    
-      <video className='video' autoPlay loop muted >
+      <video id='myVideo' className='video' autoPlay loop muted >
          <source src={video1} type='video/mp4'/>
       </video>
-      <div className='hero-text'>
+      <div id='overlayDiv' className='hero-text'>
       {/* <h1 className='yours'>VOTRE AGENCE DIGITALE </h1>
       <h1 className='yours'>EN ALGERIE</h1>
       <hr></hr>
