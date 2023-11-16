@@ -19,15 +19,6 @@ const Adssection3 = () => {
 
         <div className='adssec3-grid-item'>
           <div className='adssec3-item-left'>
-            <h2>Étape 3</h2>
-          </div>
-          <div className='adssec3-item-right'>
-            <p>Nous lançons la ou les campagnes, nous surveillons les résultats au quotidien, et nous travaillons à améliorer la qualité de vos annonces.</p>
-          </div>
-        </div>
-
-        <div className='adssec3-grid-item'>
-          <div className='adssec3-item-left'>
             <h2>Étape 2</h2>
           </div>
           <div className='adssec3-item-right'>
@@ -41,6 +32,17 @@ const Adssection3 = () => {
             </ul>
           </div>
         </div>
+
+        <div className='adssec3-grid-item'>
+          <div className='adssec3-item-left'>
+            <h2>Étape 3</h2>
+          </div>
+          <div className='adssec3-item-right'>
+            <p>Nous lançons la ou les campagnes, nous surveillons les résultats au quotidien, et nous travaillons à améliorer la qualité de vos annonces.</p>
+          </div>
+        </div>
+
+        
 
         <div className='adssec3-grid-item'>
           <div className='adssec3-item-left'>

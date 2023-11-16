@@ -2,10 +2,7 @@ import "./designsection2.css";
 import Responsive from "../../img/responsive.webp";
 
 const Designsection2 = () => {
-  const imagestyle = {
-    width: "100%",
-    height: "100%",
-  };
+  
   return (
     <div className="desec2">
       <h1>SITE WEB RESPONSIVE DESIGN (RWD)</h1>
@@ -37,7 +34,7 @@ const Designsection2 = () => {
           </p>
         </div>
         <div className="desec2-right">
-          <img style={imagestyle} src={Responsive} />
+          <img  src={Responsive} />
         </div>
       </div>
     </div>

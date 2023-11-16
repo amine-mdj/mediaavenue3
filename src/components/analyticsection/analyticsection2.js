@@ -18,22 +18,6 @@ const Analyticsection2 = ()=>{
       </div>
 
      </div>
-
-     <div className='ticsec2-item'>
-      <div className='ticsec2-left'>
-        <p>4</p>
-      </div>
-
-      <div className='ticsec2-right'>
-        <p><span>Définir le plan de mesure : </span>Nous définirons ensemble
-         les objectifs de votre de votre site. Grâce à cette première phase et
-          aux données de Google Analytics, nous pourrons vous fournir un ensemble
-           de KPI (Key Performance Indicator) détaillés, qui représente l'efficacité
-            avec laquelle vous avez atteint ces objectifs.</p>
-      </div>
-
-     </div>
-
      <div className='ticsec2-item'>
       <div  className='ticsec2-left'>
         <p>2</p>
@@ -54,6 +38,35 @@ const Analyticsection2 = ()=>{
       </div>
 
      </div>
+     <div className='ticsec2-item'>
+      <div className='ticsec2-left'>
+        <p>3</p>
+      </div>
+
+      <div className='ticsec2-right'>
+        <p><span>Exclure l'IP et les robots de votre bureau de la collecte des données de l'utilisateur : </span>Vous
+         ne voulez probablement pas voir le trafic qui vient de votre bureau ou celui
+          qui vient des robots web parce que ce trafic n'est pas rentable pour votre entreprise.
+           Nous exclurons ces "visiteurs" de la vue de l'utilisateur.</p>
+      </div>
+
+     </div>
+     <div className='ticsec2-item'>
+      <div className='ticsec2-left'>
+        <p>4</p>
+      </div>
+
+      <div className='ticsec2-right'>
+        <p><span>Définir le plan de mesure : </span>Nous définirons ensemble
+         les objectifs de votre de votre site. Grâce à cette première phase et
+          aux données de Google Analytics, nous pourrons vous fournir un ensemble
+           de KPI (Key Performance Indicator) détaillés, qui représente l'efficacité
+            avec laquelle vous avez atteint ces objectifs.</p>
+      </div>
+
+     </div>
+
+     
 
      <div className='ticsec2-item'>
       <div className='ticsec2-left'>
@@ -71,19 +84,7 @@ const Analyticsection2 = ()=>{
 
      </div>
 
-     <div className='ticsec2-item'>
-      <div className='ticsec2-left'>
-        <p>3</p>
-      </div>
-
-      <div className='ticsec2-right'>
-        <p><span>Exclure l'IP et les robots de votre bureau de la collecte des données de l'utilisateur : </span>Vous
-         ne voulez probablement pas voir le trafic qui vient de votre bureau ou celui
-          qui vient des robots web parce que ce trafic n'est pas rentable pour votre entreprise.
-           Nous exclurons ces "visiteurs" de la vue de l'utilisateur.</p>
-      </div>
-
-     </div>
+     
 
      <div className='ticsec2-item'>
       <div className='ticsec2-left'>

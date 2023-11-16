@@ -11,7 +11,18 @@
     }
 .hmsec3-left, .hmsec3-right{
     flex: 1;
-    margin-top: 80px;
+    
+}
+
+.hmsec3-right{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hmsec3-left{
+    margin-top: 120px;
 }
 .hmsec3-left h1{
     font-size: 4rem;
@@ -74,10 +85,9 @@
 }
 
 .hmsec3-right img{
-    width: 180%;
-    height: 140%;
-    margin-top: -200px;
-    margin-left: -300px;
+    width: 80%;
+    height: 70%;
+    
 }
 
 @media screen and (max-width: 1440px){
@@ -119,10 +129,8 @@
     }
 
     .hmsec3-right img{
-        width: 140%;
-        height: 140%;
-        margin-top: -30px;
-        margin-left: -70px;
+        padding-top: 70px;
+        height: 100%;
     }
 
     .hmsec3-left, .hmsec3-right{

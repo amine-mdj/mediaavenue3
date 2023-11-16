@@ -55,6 +55,7 @@
 @media screen and (max-width: 768px) {
     .ticsec9{
         min-height: 80vh;
+        background-size: contain;
     }
     .ticsec9-inner{
         left: 0;

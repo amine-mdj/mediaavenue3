@@ -3,8 +3,9 @@
     min-height: 100vh;
     background-color: #151515;
     background-image: url(../../img/Design2.webp);
-    background-size: 100% 100%;
-    background-position: -400px 0px;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: -250px 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

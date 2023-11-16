@@ -1,9 +1,12 @@
 import "./agencysection2.css";
+import Concept from '../../img/concept.webp'
 
 const Agencysetion2 = () => {
   return (
     <div className="agsec2">
-      <div className="agsec2-left"></div>
+      <div className="agsec2-left">
+        <img src={Concept} />
+      </div>
       <div className="agsec2-right">
         <h1>LE CONCEPT</h1>
         <hr />

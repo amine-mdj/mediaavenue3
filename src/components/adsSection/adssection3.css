@@ -30,6 +30,7 @@ text-align: center;
 .adssec3-grid{
     margin-top: 50px;
     display: grid;
+    padding-inline: 30px;
     grid-template-columns: 1fr 1fr ;
 }
 

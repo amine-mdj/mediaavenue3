@@ -3,6 +3,7 @@
     min-height: 100vh;
     overflow: hidden;
     background-color: #CFD17F;
+    padding-bottom: 50px;
 }
 
 .ticsec2 h1{
@@ -30,6 +31,7 @@
     margin-top: 50px;
     padding-inline: 100px;
     display: grid;
+    row-gap: 50px;
     grid-template-columns: 1fr 1fr;
 }
 

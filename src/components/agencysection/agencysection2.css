@@ -16,8 +16,15 @@
     margin-right: 100px;
     flex : 1
 }
+
+
 .agsec2-left{ 
     flex: 1
+}
+
+.agsec2-left img{
+    display: none;
+    
 }
 
 .agsec2-right h1{
@@ -55,13 +62,20 @@ color: white;
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     .agsec2{
-        background-size: cover;
+        background-image: none;
     }
+
+   
     .agsec2-left{
       flex: none;
-      height: 0;
+      width: 100%;
+    }
+    .agsec2-left img{
+        display: block;
+        width: 100%;
+        height: 100%;
     }
     .agsec2-right{
       flex: none;
