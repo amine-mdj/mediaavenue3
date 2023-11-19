@@ -64,6 +64,9 @@ flex: 40%;
     .ticsec1-right h1{
         font-size: 2rem;
     }
+    .ticsec1-left img{
+        height: auto;
+    }
     .ticsec1-right p{
         font-size: 1rem;
     }

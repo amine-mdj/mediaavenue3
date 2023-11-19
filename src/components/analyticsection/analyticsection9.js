@@ -1,8 +1,10 @@
 import "./analyticsection9.css";
+import Book from '../../img/bg-diploma.webp'
 
 const Analyticsection9 = () => {
   return (
     <div className="ticsec9">
+      <div className="ticsec9-wrapper">
       <div className="ticsec9-inner">
         <h1>
           QU'EST-CE QU'UNE AGENCE D'ANALYSE WEB "CERTIFIÉE" GOOGLE ANALYTICS SIGNIFIE ?
@@ -14,6 +16,10 @@ const Analyticsection9 = () => {
         <p>
           Chez Meedia avenue, nous avons réussi cet examen et obtenu la certification <span>Google Analytics.</span>
         </p>
+      </div>
+      <div className="ticsec9-img">
+        <img src={Book}  />
+      </div>
       </div>
     </div>
   );

@@ -8,6 +8,10 @@
     background-repeat: no-repeat;
     background-position: -70% 50%;
 }
+
+.ticsec9-img img{
+    display: none;
+}
 .ticsec9-inner{
     position: relative;
     top: 300px;
@@ -54,10 +58,17 @@
 
 @media screen and (max-width: 768px) {
     .ticsec9{
+        background-image: none;
         min-height: 80vh;
-        background-size: contain;
+        padding-bottom: 20px;
+        }
+    .ticsec9-img img{
+        display: block;
+        width: 100%;
+        height: 100%;
     }
     .ticsec9-inner{
+        top: 20px;
         left: 0;
         width: 100%;
     }

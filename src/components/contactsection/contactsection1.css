@@ -145,9 +145,23 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     .ct-wrapper{
         display: block;
+    }
+
+    .ctsec1-1{
+        margin-left: 0;
+        width: 90%;
+        margin: auto;
+    }
+
+    .ctsec1-1 input[type=text] {
+        width: 100%;
+    }
+
+    .ctsec1-1 textarea{
+        width: 100%;
     }
     .ctsec1-2 div{
         margin-left: -30px;
@@ -157,25 +171,37 @@
         
     }
 
+    .ctsec1 h1{
+      font-size: 2rem;
+     
+    }
+
     .ctsec1-3{
-        width: 80%;
+        padding-top: 0;
+        width: 90%;
         margin: auto;
+        text-align: center;
         margin-block: 50px;
+    }
+
+    .ctsec1-3 p{
+        width: 100%;
     }
     .ctsec1-3 button{
         width: 100%;
     }
 
     .ctsec1-1 p{
+        padding-right: 0;
         margin-top: 0;
-        width: 70%;
+        width: 90%;
         display: inline-block;
       }
 
       .ctsec1-1 button{
         position: relative;
-        left: 25%;
-      }
+        width: 100%;
+        }
 
       input[type="checkbox"] {
         vertical-align: top;

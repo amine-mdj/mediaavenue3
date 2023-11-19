@@ -84,10 +84,13 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     .adssec2-bottom{
         display: block;
         margin-inline: 0;
+    }
+    .adssec2-img img{
+        aspect-ratio: 1;
     }
     .adssec2-desc{
         background-color: transparent;
