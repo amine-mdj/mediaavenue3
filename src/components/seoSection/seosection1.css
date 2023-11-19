@@ -68,6 +68,7 @@
     width: 100%;
   }
   .seosec1-right{
+    justify-content: unset;
     padding-right: 0;
     flex: none;
     width: 100%;
