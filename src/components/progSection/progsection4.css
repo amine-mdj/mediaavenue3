@@ -78,6 +78,8 @@
 @media screen and (max-width: 768px) {
   .progsec4 h1{
     font-size: 2rem;
+    width: 90%;
+    margin-inline: auto;
   }
   .progsec4-left{
     flex: none;

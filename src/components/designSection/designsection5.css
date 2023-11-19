@@ -108,6 +108,8 @@ flex: 1;
    }
    .desec5 h1{
     margin-top: 80px;
+    width: 90%;
+    margin-inline: auto;
    }
    .desec5-left p{
     width: 90%;

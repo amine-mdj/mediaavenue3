@@ -78,6 +78,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .ticsec3-left h1{
+        width: 90%;
+        margin-inline: auto;
+       }
   .ticsec3-right{
    flex: none;
    width: 100%;

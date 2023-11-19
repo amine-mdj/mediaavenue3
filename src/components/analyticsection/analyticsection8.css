@@ -63,7 +63,10 @@
 }
 
 @media screen and (max-width: 768px) {
-    
+    .ticsec8 h1{
+        width: 90%;
+        margin-inline: auto;
+    }
     .ticsec8-center{
         width: 80%;
     }

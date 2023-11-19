@@ -76,6 +76,8 @@
     }
     .desec2 h1{
         font-size: 2rem;
+        width: 90%;
+        margin-inline: auto;
      }
      .desec2 hr{
         width: 50px;

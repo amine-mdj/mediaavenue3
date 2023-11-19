@@ -78,6 +78,8 @@
 @media screen and (max-width: 768px) {
   .progsec6 h1{
     font-size: 2rem;
+    width: 90%;
+    margin-inline: auto;
   }
   .progsec6-left{
     padding-left: 20px;

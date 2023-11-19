@@ -61,8 +61,9 @@
     }
     .desec1-right h1{
         font-size: 2rem;
-        margin-left: 0;
-     }
+        width: 90%;
+        margin-inline: auto;
+        }
      .desec1-right hr{
         margin-top: 0;
      }

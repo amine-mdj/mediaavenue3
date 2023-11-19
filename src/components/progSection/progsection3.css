@@ -82,6 +82,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .progsec3 h1{
+        width: 90%;
+        margin-inline: auto;
+    }
     .progsec3-grid{
         display: block;
         padding-inline: 0;

@@ -80,6 +80,11 @@ font-weight: 700;
     .progsec10{
         padding-bottom: 30px;
     }
+
+    .progsec10 h1{
+        width: 90%;
+        margin-inline: auto;
+    }
     .progsec10-item-left p{
         font-size: 1.6rem;
     }

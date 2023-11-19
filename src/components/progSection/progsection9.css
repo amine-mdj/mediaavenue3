@@ -81,6 +81,8 @@ flex: 1;
   .progsec9 h1{
     font-size: 2rem;
     margin-top: 30px;
+    width: 90%;
+    margin-inline: auto;
     
   }
   .progsec9-left{

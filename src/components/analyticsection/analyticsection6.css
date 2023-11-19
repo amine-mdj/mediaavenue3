@@ -65,7 +65,11 @@ background: white;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
+    .ticsec6-right h1{
+        width: 90%;
+        margin-inline: auto;
+    }
    .ticsec6-left,.ticsec6-right{
     margin-top: 10px;
     flex: none;

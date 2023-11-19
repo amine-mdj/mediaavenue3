@@ -85,6 +85,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .adssec2 h1{
+        width: 90%;
+        margin-inline: auto;
+      }
     .adssec2-bottom{
         display: block;
         margin-inline: 0;

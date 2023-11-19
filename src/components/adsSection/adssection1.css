@@ -67,9 +67,13 @@ color: white;
   }
   .adssec1-right h1{
     font-size: 2rem;
+    width: 90%;
+    margin-inline: auto;
   }
   .adssec1-right p{
     font-size: 1rem;
+    width: 90%;
+    margin-inline: auto;
   }
   .adssec1-left,.adssec1-right{
     flex: none;

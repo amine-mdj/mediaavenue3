@@ -76,6 +76,8 @@ border: none;
 @media screen and (max-width: 768px) {
     .progsec5 h1{
         font-size: 2rem;
+        width: 90%;
+        margin-inline: auto;
        }
   .progsec5-left{
    flex: none;

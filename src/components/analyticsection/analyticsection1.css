@@ -63,6 +63,8 @@ flex: 40%;
 @media screen and (max-width: 768px) {
     .ticsec1-right h1{
         font-size: 2rem;
+        width: 90%;
+        margin-inline: auto;
     }
     .ticsec1-left img{
         height: auto;

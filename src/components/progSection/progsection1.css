@@ -68,6 +68,8 @@
    }
    .progsec1-right h1{
     font-size: 2rem;
+    width: 90%;
+    margin-inline: auto;
   }
   .progsec1-right p{
     font-size: 1rem;

@@ -98,6 +98,11 @@
     .ticsec2{
         padding-bottom: 30px;
     }
+    .ticsec2 h1{
+        width: 90%;
+        margin-inline: auto;
+    }
+
     .ticsec2-grid{
         display: block;
         padding-inline: 0;

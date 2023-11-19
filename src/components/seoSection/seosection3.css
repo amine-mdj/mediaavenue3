@@ -140,6 +140,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .seosec3-left h1{
+        width: 90%;
+        margin-inline: auto;
+    }
     .seosec3{
         background-image: none;
     }

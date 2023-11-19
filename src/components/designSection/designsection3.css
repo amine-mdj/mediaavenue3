@@ -114,6 +114,8 @@
    
     .upper-desec3 h1{
         font-size: 2rem;
+        width: 90%;
+        margin-inline: auto;
         padding-inline: 0;
        
     }

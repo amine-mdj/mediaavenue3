@@ -54,6 +54,10 @@ flex: 50%;
 }
 
 @media screen and (max-width: 768px) {
+  .seosec2-right h1{
+    width: 90%;
+    margin-inline: auto;
+  }
   .seosec2-left{
     flex: none;
     width: 100%;

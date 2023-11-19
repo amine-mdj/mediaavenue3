@@ -60,6 +60,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .adssec4-right h1{
+    width: 90%;
+    margin-inline: auto;
+  }
   .adssec4-left,.adssec4-right{
     flex: none;
     width: 100%;

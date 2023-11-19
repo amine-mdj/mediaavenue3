@@ -104,6 +104,10 @@ text-align: center;
 }
 
 @media screen and (max-width: 768px) {
+    .adssec3 h1{
+        width: 90%;
+        margin-inline: auto;
+    }
    .adssec3-grid{
     display: block;
    }

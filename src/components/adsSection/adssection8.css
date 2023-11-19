@@ -74,7 +74,12 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
+
+  .adssec8-right h1{
+    width: 90%;
+    margin-inline: auto;
+  }
   .adssec8-left{
     flex: none;
     width: 100%;

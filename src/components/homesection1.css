@@ -72,6 +72,10 @@ strong{
     .right{
         padding-right: 0;
     }
+    .right h1{
+        width: 90%;
+        margin-inline: auto;
+    }
     .wrapper{
         display: block;
         min-height: auto;

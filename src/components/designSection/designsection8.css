@@ -103,6 +103,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .desec8 h1{
+        width: 90%;
+        margin-inline: auto;
+    }
     .desec8-grid{
         margin-top: 0;
         display: block;
