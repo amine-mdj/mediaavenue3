@@ -80,6 +80,9 @@ font-weight: 700;
     .progsec10{
         padding-bottom: 30px;
     }
+    .progsec10-item-left p{
+        font-size: 1.6rem;
+    }
     .progsec10-item-left{
         margin-block: 20px;
         background-size: 30% 100%;

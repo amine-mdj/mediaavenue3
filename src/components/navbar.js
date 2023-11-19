@@ -49,15 +49,14 @@ const Navbar = ({ isActive, toggleClass }) => {
             className="nav-hamburger"
             icon="fa-solid fa-x"
             size="xl"
-            style={{ marginTop: "20px", marginRight: "50px", color: "#4e8070" }}
+            style={{ marginTop: "20px",fontSize:"24px", marginRight: "50px", color: "#4e8070" }}
           />
         ) : (
           <FontAwesomeIcon
             onClick={toggleClass}
             className="nav-hamburger"
             icon="fa-solid fa-bars"
-            size="3x"
-          />
+            />
         )}
       </div>
       <div className="placeholder"></div>

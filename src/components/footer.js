@@ -49,7 +49,7 @@ const Footer = () =>{
 Birkhadem, Said Hamdine,<br/></p>
             <p><FontAwesomeIcon icon="fa-solid fa-phone-flip" style={{color: "#ffffff",display:'inline', marginRight:'10px'}} />
                +32 2 586 21 90</p>
-            <p>info@mediaavenue.eu</p>
+            <p><FontAwesomeIcon icon="fa-solid fa-envelope" style={{color: "#ffffff",display:'inline', marginRight:'10px'}} />info@mediaavenue.eu</p>
       </div>
       <div className='percent forth-percent'>
       <h1>SUIVEZ-NOUS</h1>
